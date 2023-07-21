@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Esteban',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Cabrera Inoa',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '28 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Dominican',
   },
 
   {
@@ -91,56 +91,56 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Santiago',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '(809) 383-2838',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'jeyco0009@gmail.com',
   },
 
   {
     id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
+    title: 'Instagram : ',
+    description: 'jeyco009',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Spanish, English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '5+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '87+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '51+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
+    no: '23+',
     title: ' Awards <br /> Won',
   },
 ];
