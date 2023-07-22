@@ -66,7 +66,7 @@ export const personalInfo = [
 
   {
     id: 2,
-    title: 'Last Name : ',
+    title: 'Last Names : ',
     description: 'Cabrera Inoa',
   },
 
@@ -128,21 +128,21 @@ export const stats = [
 
   {
     id: 2,
-    no: '87+',
+    no: '9+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '51+',
+    no: '7+',
     title: 'Happy <br /> Customers',
   },
 
-  {
+  /*{
     id: 4,
-    no: '23+',
+    no: '0+',
     title: ' Awards <br /> Won',
-  },
+  },*/
 ];
 
 export const resume = [
@@ -150,104 +150,104 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2022 - 2023',
+    title: 'Data Analyst <span> Forward Financing </span>',
+    desc: 'Collect, analyze and interpret data sets, transforming them into usable information for the company.',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2020 - 2022',
+    title: 'Systems Technician <span> San Felipe Apostle College </span>',
+    desc: 'Team management, organization of advertising campaigns, creative design, platform administrator and web page developer.',
   },
 
-  {
+  /*{
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2005 - 2013',
     title: 'Consultant <span> Videohive </span>',
     desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
+  },*/
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2022',
+    title: 'Computer Systems Engineer <span> Universidad Catolica del Cibao (UCATECI) </span>',
+    desc: '',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2020',
+    title: 'Basic Electronic <span> Instituto Tecnológico de Las Américas (ITLA) </span>',
+    desc: '',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2012',
+    title: 'Bachelor Degree <span> Liceo Secundario Rubén Darío </span>',
+    desc: '',
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    title: 'HTML',
+    percentage: '20',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '49',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: 'CSS',
+    percentage: '20',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'C#',
+    percentage: '46',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '95',
+    percentage: '55',
   },
 
   {
     id: 6,
-    title: 'Jquery',
+    title: 'Godot & GDScript',
     percentage: '50',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'SQL',
+    percentage: '15',
   },
 
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '35',
   },
 ];
 
