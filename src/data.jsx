@@ -61,7 +61,7 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Esteban',
+    description: 'Esteban Jacob',
   },
 
   {
@@ -91,7 +91,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Santiago',
+    description: 'Santiago de los Caballeros',
   },
 
   {
