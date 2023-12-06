@@ -13,19 +13,19 @@ const About = () => {
     <main className='section container'>
       <section className='about'>
         <h2 className='section__title'>
-          About <span>Me</span>
+          Acerca de <span>Mí</span>
         </h2>
 
         <div className='about__container grid'>
           <div className='about__info'>
-            <h3 className='section__subtitle'>Personal Infos</h3>
+            <h3 className='section__subtitle'>Información Personal</h3>
 
             <ul className='info__list grid'>
               <Info />
             </ul>
 
             <a href={CV} download='' className='button'>
-              Download Cv
+              Descargar Cv
               <span className='button__icon'>
                 <FaDownload />
               </span>
@@ -41,7 +41,7 @@ const About = () => {
       <div className='separator'></div>
 
       <section className='skills'>
-        <h3 className='section__subtitle subtitle__center'>My Skills</h3>
+        <h3 className='section__subtitle subtitle__center'>Mis Habilidades</h3>
 
         <div className='skills__container grid'>
           <Skills />
@@ -52,7 +52,7 @@ const About = () => {
 
       <section className='resume'>
         <h3 className='section__subtitle subtitle__center'>
-          Experience & Education
+          Experiencia y Educación
         </h3>
 
         <div className='resume__container grid'>
