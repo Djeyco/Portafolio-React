@@ -3,15 +3,17 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 
 import Navbar from './components/Navbar'
-import Home from './Pages/homes/Home'
-import About from './Pages/about/About'
-import Portfolio from './Pages/portfolio/Portfolio'
-import Contact from './Pages/Contact/Contact'
+import Themes from './components/Themes'
+import Home from './pages/homes/Home'
+import About from './pages/about/About'
+import Portfolio from './pages/portfolio/Portfolio'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Themes />
       <Routes>
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
