@@ -21,7 +21,7 @@
 }
 
 .dark-theme .nav__link {
-    border-color: hsl(0, 0%, 20%);
+  border-color: hsl(0, 0%, 20%);
 }
 
 .nav__icon,

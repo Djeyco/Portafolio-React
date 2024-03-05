@@ -1,5 +1,5 @@
-import React from 'react';
-import parse from 'html-react-parser';
+import React from "react";
+import parse from "html-react-parser";
 
 const ResumeItem = ({ icon, year, title, desc }) => {
   return (
@@ -10,7 +10,7 @@ const ResumeItem = ({ icon, year, title, desc }) => {
       <h3 className="resume__subtitle">{parse(title)}</h3>
       <p className="resume__description">{desc}</p>
     </div>
-  )
-}
+  );
+};
 
-export default ResumeItem
+export default ResumeItem;

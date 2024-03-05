@@ -1,5 +1,5 @@
-import React from 'react'
-import { personalInfo } from '../data';
+import React from "react";
+import { personalInfo } from "../data";
 
 const Infos = () => {
   return (
@@ -14,6 +14,6 @@ const Infos = () => {
       })}
     </>
   );
-}
+};
 
-export default Infos
+export default Infos;

@@ -1,6 +1,6 @@
-import React from 'react'
-import { stats } from '../data';
-import parse from 'html-react-parser';
+import React from "react";
+import { stats } from "../data";
+import parse from "html-react-parser";
 
 const Stats = () => {
   return (
@@ -15,6 +15,6 @@ const Stats = () => {
       })}
     </>
   );
-}
+};
 
-export default Stats
+export default Stats;
