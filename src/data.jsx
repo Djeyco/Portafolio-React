@@ -9,11 +9,11 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-0.png";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpeg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
+import Work1 from "./assets/project-01.png";
+import Work2 from "./assets/project-02.png";
+import Work3 from "./assets/project-03.png";
+import Work4 from "./assets/project-04.png";
+import Work5 from "./assets/project-05.png";
 import Work6 from "./assets/project-6.jpg";
 
 import Theme1 from "./assets/purple.png";
@@ -60,43 +60,43 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: "First Name : ",
+    title: "Nombre : ",
     description: "Esteban Jacob",
   },
 
   {
     id: 2,
-    title: "Last Names : ",
+    title: "Apellidos : ",
     description: "Cabrera Inoa",
   },
 
   {
     id: 3,
-    title: "Age : ",
-    description: "28 Years",
+    title: "Edad : ",
+    description: "29 Años",
   },
 
   {
     id: 4,
-    title: "Nationality : ",
-    description: "Dominican",
+    title: "Nacionalidad : ",
+    description: "Dominicano",
   },
 
   {
     id: 5,
     title: "Freelance : ",
-    description: "Available",
+    description: "Disponible",
   },
 
   {
     id: 6,
-    title: "Address : ",
+    title: "Direccion : ",
     description: "Santiago de los Caballeros",
   },
 
   {
     id: 7,
-    title: "Phone : ",
+    title: "Teléfono : ",
     description: "(809) 383-2838",
   },
 
@@ -109,39 +109,39 @@ export const personalInfo = [
   {
     id: 9,
     title: "Instagram : ",
-    description: "jeyco009",
+    description: "@jeyco009",
   },
 
-  {
+  /*{
     id: 10,
-    title: "Langages : ",
+    title: "Idiao : ",
     description: "Spanish, English",
-  },
+  },*/
 ];
 
 export const stats = [
   {
     id: 1,
-    no: "5+",
-    title: "Years of <br /> Experience",
+    no: "4+",
+    title: "Años de <br /> experiencia",
   },
 
   {
     id: 2,
-    no: "9+",
-    title: "Completed <br /> Projects",
+    no: "6+",
+    title: "Proyectos <br /> completados",
   },
 
   {
     id: 3,
-    no: "7+",
-    title: "Happy <br /> Customers",
+    no: "3+",
+    title: "Clientes <br /> felices",
   },
 
   /*{
     id: 4,
     no: '0+',
-    title: ' Awards <br /> Won',
+    title: 'Premios <br /> ganados',
   },*/
 ];
 
@@ -150,28 +150,28 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2022 - 2023",
-    title: "Data Analyst <span> Forward Financing </span>",
-    desc: "Collect, analyze and interpret data sets, transforming them into usable information for the company.",
+    year: "2023 - Actual",
+    title: "Encargado IT <span> Facep </span>",
+    desc: "Como encargado de IT, lidero equipos para planificar y ejecutar proyectos, asegurando la eficiencia de la infraestructura tecnológica. Brindo soporte técnico, implemento medidas de seguridad y colaboro estrechamente con otros departamentos. Gestiono el presupuesto, desarrollo estrategias tecnológicas y garantizo el cumplimiento normativo, evaluando constantemente nuevas tecnologías para mejorar nuestro rendimiento empresarial.",
   },
 
   {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2020 - 2022",
-    title: "Systems Technician <span> San Felipe Apostle College </span>",
-    desc: "Team management, organization of advertising campaigns, creative design, platform administrator and web page developer.",
+    year: "2022 - 2023",
+    title: "Analista de Datos <span> Forward Financing </span>",
+    desc: "Como Analista de Datos, me especializo en la recopilación y análisis de información clave para la toma de decisiones empresariales. Utilizo mi experiencia para interpretar conjuntos de datos, transformándolos en conocimientos estratégicos. Colaboro con equipos, garantizo la integridad de los datos y propongo soluciones basadas en hallazgos analíticos. Mi enfoque se centra en optimizar la eficiencia y la toma de decisiones informadas.",
   },
 
-  /*{
+  {
     id: 3,
-    category: 'experience',
+    category: "experience",
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },*/
+    year: "2020 - 2022",
+    title: "Técnico de Sistemas <span> Colegio San Felipe Apóstol </span>",
+    desc: "Como Técnico en Sistemas, me dedico a la administración y mantenimiento de sistemas informáticos. Realizo tareas como instalación de software, resolución de problemas técnicos, y aseguro la eficiencia y seguridad de la infraestructura tecnológica. Colaboro con usuarios para garantizar un entorno de trabajo tecnológicamente eficiente y resolutivo.",
+  },
 
   {
     id: 4,
@@ -179,7 +179,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2022",
     title:
-      "Computer Systems Engineer <span> Universidad Catolica del Cibao (UCATECI) </span>",
+    "Ingeniero en Sistemas Computacionales <span> Universidad Católica del Cibao (UCATECI) </span>",
     desc: "",
   },
 
@@ -189,7 +189,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: "2020",
     title:
-      "Basic Electronic <span> Instituto Tecnológico de Las Américas (ITLA) </span>",
+    "Electrónica Básica <span> Instituto Tecnológico de Las Américas (ITLA) </span>",
     desc: "",
   },
 
@@ -197,8 +197,17 @@ export const resume = [
     id: 6,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2012",
-    title: "Bachelor Degree <span> Liceo Secundario Rubén Darío </span>",
+    year: "2023",
+    title: "Desarrollador de Aplicaciones en las Nubes (Freelancer) <span> INFOTEP </span>",
+    desc: "",
+  },
+
+  {
+    id: 7,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2023",
+    title: "Creación de Videos Educativos <span> INFOTEP </span>",
     desc: "",
   },
 ];
@@ -261,17 +270,17 @@ export const portfolio = [
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video Game",
+        title: "Proyecto : ",
+        desc: "Videojuego",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
+        title: "Cliente : ",
         desc: "Esteban & Neurys",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Lenguage : ",
         desc: "GDScript",
       },
       {
@@ -285,27 +294,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "Pagina Web FACEP",
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Website",
+        title: "Proyecto : ",
+        desc: "Páginas Web",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Cliente : ",
+        desc: "FACEP",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "React JS",
+        title: "Desarrollado en : ",
+        desc: "Wordpress",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://facep.com.do/",
       },
     ],
   },
@@ -313,27 +322,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "Carrito de Compra",
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
+        title: "Projecto : ",
+        desc: "Carrito de Compra",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Cliente : ",
+        desc: "Proyecto Personal",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Lenguage : ",
+        desc: "JavaScript",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://cestashop.netlify.app/",
       },
     ],
   },
@@ -341,27 +350,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: "Video Editing",
+    title: "Pagina Web de Anime",
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
-        desc: "Video",
+        title: "Projecto : ",
+        desc: "Pagina Web de Anime",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Cliente : ",
+        desc: "Proyecto Personal",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "Adobe Premium",
+        title: "Lenguage : ",
+        desc: "HTML",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://animehtml.netlify.app/",
       },
     ],
   },
@@ -369,45 +378,45 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: "Landing Page",
+    title: "Pagina Web Colegio",
     details: [
       {
-        title: "Project : ",
-        desc: "Website",
+        title: "Projecto : ",
+        desc: "Pagina Web Colegio San Felipe Áportol",
       },
       {
-        title: "Client : ",
-        desc: "Dribble",
+        title: "Cliente : ",
+        desc: "Colegio San Felipe Ápostol",
       },
       {
-        title: "Language : ",
-        desc: "React JS, Node JS",
+        title: "Desarrollado en : ",
+        desc: "Wordpress",
       },
       {
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "https://sanfelipeapostol.edu.do/",
       },
     ],
   },
 
-  {
+  /*{
     id: 6,
     img: Work6,
     title: "Photo Editing",
     details: [
       {
         icon: <FiFileText />,
-        title: "Project : ",
+        title: "Projecto : ",
         desc: "Photo",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
+        title: "Cliente : ",
         desc: "Dribble",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Lenguage : ",
         desc: "Adobe Photoshop",
       },
       {
@@ -416,7 +425,7 @@ export const portfolio = [
         desc: "www.dibble.com",
       },
     ],
-  },
+  },*/
 ];
 
 export const themes = [

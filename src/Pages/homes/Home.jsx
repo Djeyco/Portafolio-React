@@ -12,18 +12,22 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Esteban Cabrera.</span> Systems Engineer
+            <span>Soy Esteban Cabrera.</span> Ingeniero en Sistemas
           </h1>
 
           <p className="home__description">
-            An honest, responsible young man, capable of working in a team,
-            skilled administrator of several computer programs, willing to
-            acquire new knowledge and contribute to the growth of the company of
-            which he is a part.
+            Soy un joven honesto y responsable con enfoque en el desarrollo de
+            sistemas. Aunque mi experiencia es moderada, he demostrado
+            habilidades sólidas como administrador de programas informáticos,
+            destacándome en el uso de lenguajes como JavaScript, HTML, CSS y C#.
+            Además, cuento con experiencia en el desarrollo con WordPress. Mi
+            disposición para aprender y mi sólido entendimiento en el desarrollo
+            de sistemas me permiten contribuir al crecimiento de la empresa de
+            manera efectiva.
           </p>
 
           <Link to="/about" className="button">
-            More About Me{" "}
+            Más sobre mí{" "}
             <span className="button__icon">
               <FaArrowRight />
             </span>
