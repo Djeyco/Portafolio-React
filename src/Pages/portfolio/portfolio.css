@@ -70,9 +70,17 @@
   filter: invert(0.8);
 }
 
+.modal__title {
+  text-align: center;
+  color: var(--first-color);
+  font-size: var(--h2-font-size);
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
 .modal__list {
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 10px;
+  row-gap: 10px !important;
   margin-bottom: 24px;
 }
 
@@ -80,14 +88,6 @@
   display: flex;
   align-items: center;
   column-gap: 8px;
-}
-
-.modal__title {
-  text-align: center;
-  color: var(--first-color);
-  font-size: var(--h2-font-size);
-  letter-spacing: 2px;
-  margin-bottom: 24px;
 }
 
 .item__icon {
